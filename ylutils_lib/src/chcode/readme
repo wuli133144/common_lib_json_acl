@@ -1,0 +1,2 @@
+中文编码转换.
+class ChCode (chinese code) 是个汉字转码系统主要进行繁简及简繁转换 utf8的转换还没有实现.

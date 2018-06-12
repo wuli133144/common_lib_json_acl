@@ -1,0 +1,8 @@
+网络库 :
+std_socket :  socket基类. 主要完成公用的socket功能.
+ServerSocket : tcp服务器socket, 主要职责 : accept.
+Socket : tcp普通socket, 主要职责 : read write.
+AcceptSocket : 主要用在ServerSocket.accept()之后.
+Socket4Object : 可以传输对象的socket, 我很少用到他.
+UdpSocket : udp通讯socket.
+Host : dns解析类.

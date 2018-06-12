@@ -1,0 +1,3 @@
+http相关的功能库
+HttpQuery : name=value&name=value的解析库.
+还有一个URLEncode的类我还没有放到里面

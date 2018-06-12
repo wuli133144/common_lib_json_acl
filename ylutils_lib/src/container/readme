@@ -1,0 +1,10 @@
+容器集合 :
+
+BitVector : 位容器. stl的bit_vector其实就是vector由于初始化非常慢, 所以最终抛弃了他.
+            这个类是我在写tracker的时候花非常少的时间写的, 他似乎可用性没有stl-vector
+            好用, 他的resize实现的不太好, 我目前还很少用到resize来改变容器的大小, 
+            常规的做法是stl-vector的做法. 有兴趣可以扩充他.
+
+Safe... ... : 都是线程安全的容器, 有用cond实现的, 有用sem实现的.
+SimpleVector: 是一个非常简单的vector, 我在我们的服务器很多地方使用到了他.
+CommonIndex : 这个模板是一个通用的索引结构类, 把它放到这个地方可能不太合适, 毕竟他也是专用的.
